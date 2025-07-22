@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loyalty Rewards Portal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Carousel -->
+  <div class="carousel">
+    <div class="slides active">Welcome to Loyalty Rewards!</div>
+    <div class="slides">Earn Points with Every Purchase!</div>
+    <div class="slides">Redeem Rewards Easily!</div>
+  </div>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Our Portal</h2>
+    <p>We help loyal customers get rewarded for every purchase they make. Join our program and start earning points today!</p>
+  </section>
+
+  <!-- Q&A Section -->
+  <section class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="question">
+      <h4>How do I earn rewards?</h4>
+      <p>You earn points for every purchase made through our partnered stores.</p>
+    </div>
+    <div class="question">
+      <h4>How do I redeem my rewards?</h4>
+      <p>Login to your account and choose from a variety of available rewards.</p>
+    </div>
+  </section>
+
+  <!-- Chatbot -->
+  <div id="chatbot-container">
+    <div id="chatbot-header">💬 Chat with us</div>
+    <div id="chatbot-body">
+      <div class="chat-message bot">Hi there! How can I help you?</div>
+    </div>
+    <input type="text" id="chatbot-input" placeholder="Type your message..." onkeydown="handleKey(event)" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
